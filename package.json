@@ -1,0 +1,16 @@
+{
+  "name": "ready-list",
+  "version": "1.0.0",
+  "description": "Utility to fetch clan members and figure out which have CW tanks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Ventura",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "superagent": "^5.2.1",
+    "superagent-throttle": "^1.0.1"
+  }
+}
