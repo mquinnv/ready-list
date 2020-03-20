@@ -96,9 +96,15 @@ const main = async () => {
 	
 	console.log(titles.join(','))
 	clan.data['1000050973'].members.forEach(async player => {
-		const row = await createRow(player)
-		console.log(row)
+		//const row = await createRow(player)
+		console.log(player)
+        const stats = await wg('ratings/accounts/',{account_id:player.account_id, type:'default'})
+		console.log(stats)
+        process.exit()
+		//console.log(row)
 	})
+
+
 
 
 }
